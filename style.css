@@ -22,8 +22,9 @@ img {
     max-width: 100%;
 }
 
-
-
+body{
+    overflow-x: hidden !important;
+}
 
 /* header item */
 .header-item img {
@@ -814,5 +815,10 @@ td {
     line-height: 38px;
     color: #fff;
 }
-.futter-end h3{margin-top: 50px;font-size: 22px;border-top: 1px solid #fbfdff3b;padding-top: 25px;}
 
+.futter-end h3 {
+    margin-top: 50px;
+    font-size: 22px;
+    border-top: 1px solid #fbfdff3b;
+    padding-top: 25px;
+}
